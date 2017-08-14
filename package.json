@@ -1,11 +1,10 @@
 {
   "name": "@mojule/mmon",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Mojule Model Object Notation - a simple DSL for generating nested model nodes",
   "main": "index.js",
   "scripts": {
     "test": "mocha",
-    "benchmark": "node ./benchmark",
     "coverage": "istanbul cover node_modules/mocha/bin/_mocha"
   },
   "keywords": [],
@@ -20,13 +19,11 @@
   },
   "homepage": "https://github.com/mojule/mmon#readme",
   "devDependencies": {
-    "fastbench": "^1.0.1",
     "istanbul": "^0.4.5",
-    "js-yaml": "^3.8.4",
     "mocha": "^3.2.0",
     "pify": "^2.3.0"
   },
   "dependencies": {
-    "@mojule/string-tree": "github:mojule/string-tree#1.0.0"
+    "@mojule/string-tree": "^1.0.0"
   }
 }
